@@ -1,0 +1,23 @@
+<!--vista card-->
+<div>
+  <ul>
+    <li>
+      <div class="borde" *ngFor= "let cliente of clientes">
+
+            <div id="persona">
+                <span class="material-icons md-48">perm_identity </span>
+                <div id="nombre">
+                  <p class="info">{{cliente.nombres}} {{cliente.apellidos}} <br> {{cliente.pais}}, {{cliente.ciudad}} </p>
+                  <br>
+                  <br>
+                </div>
+
+
+
+          </div>
+      </div>
+    </li>
+
+  </ul>
+</div>
+
